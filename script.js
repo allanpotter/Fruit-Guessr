@@ -19,7 +19,7 @@ tryGuess.innerHTML = "Guess";
 
 fruitButton.addEventListener("click", function(){
     fruitIndex =Math.floor(Math.random()* fruits.length); 
-    images.push(`<img id="imagesFr" src="fruit_images/${(fruitIndex)}.jpg">`);
+    images.push(`<img id="imagesFr" src="${(fruitIndex)}.jpg">`);
     fruitLabel.innerHTML = "";
     fruitImages.innerHTML = images;
     numbers.push(fruits[fruitIndex]);
@@ -94,7 +94,7 @@ tryGuess.innerHTML = "Tentar";
 
 fruitButton.addEventListener("click", function(){
     fruitIndex =Math.floor(Math.random()* fruits.length); 
-    images.push(`<img id="imagesFr" src="fruit_images/${(fruitIndex)}.jpg">`);
+    images.push(`<img id="imagesFr" src="${(fruitIndex)}.jpg">`);
     fruitLabel.innerHTML = "";
     fruitImages.innerHTML = images;
     numbers.push(fruits[fruitIndex]);
